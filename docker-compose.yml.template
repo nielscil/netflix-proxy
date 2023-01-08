@@ -2,7 +2,7 @@ version: '2'
 
 services:
   dnsmasq-service:
-    image: andyshinn/dnsmasq:latest
+    image: 4km3/dnsmasq:latest
     container_name: dnsmasq
     privileged: true
     network_mode: host
@@ -13,7 +13,7 @@ services:
     restart: always
 
   dnsmasq-bogus-service:
-    image: andyshinn/dnsmasq:latest
+    image: 4km3/dnsmasq:latest
     container_name: dnsmasq-bogus
     privileged: true
     network_mode: host
@@ -35,7 +35,7 @@ services:
     restart: always
   
   sniproxy-service:
-    image: ab77/sniproxy:latest
+    image: nielscil/sniproxy:latest
     container_name: sniproxy
     build:
       context: docker-sniproxy

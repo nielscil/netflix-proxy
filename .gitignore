@@ -6,3 +6,6 @@ auth/db/auth.db
 id_rsa.travis
 ChromeProfile/
 venv*
+/.vs/netflix-proxy/FileContentIndex
+/.vs/netflix-proxy/v17
+/.vs
